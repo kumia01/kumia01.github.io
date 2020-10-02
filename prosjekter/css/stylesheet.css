@@ -1,0 +1,30 @@
+
+/* {
+    border: 1px solid black;
+    padding: 0px;
+}*/
+
+.meny {
+background-color: #F6AE2D;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+li {
+    float: right;
+    padding-right: 10px;
+}
+
+.front{
+    background-color: #F6AE2D;
+    height: 998px;
+}
