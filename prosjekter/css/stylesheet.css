@@ -6,7 +6,7 @@ body {
     padding: 0px;
 }
 
-.meny {
+.nav {
 background-color: #F6AE2D;
 
 }
@@ -33,4 +33,11 @@ li {
 .front{
     background-color: #F6AE2D;
     height: 998px;
+}
+
+/* nav på mobil */
+@media screen and (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
 }
