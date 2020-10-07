@@ -1,43 +1,63 @@
 body {
     margin: 0px;
 }
-* {
-    border: 1px solid black;
-    padding: 0px;
+.nav{
+    background-color: #F6AE2D;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+.nav a{
+    float: right;
+    padding: 30px 10px;
+    color: black;
+    font-size: 1.7vw;
+    margin-right: 30px;
+    text-decoration: none;
+}
+/*meny hover*/
+.nav a:hover {
+    background: white;
+    color: black;
 }
 
-.nav {
-background-color: #F6AE2D;
-
+.front{
+    background-color: #F6AE2D;
+    height: 1080px;
+    padding-top: 100px;
 }
 
 h2 {
     padding-left: 5px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-
-}
-ul {
-    list-style-type: none;
-    padding-bottom: 20px;
-}
-li {
-    float: right;
-    padding-right: 10px;
+.informasjon{
+    padding: 0px 100px;
 }
 
-.front{
-    background-color: #F6AE2D;
-    height: 998px;
+.informasjon p{
+
+    font-size: 2vw;
 }
+.informasjon h2{
+    font-size: 3vw;
+}
+.informasjon q{
+    font-size: 2vw;
+}
+
+
 
 /* nav på mobil */
 @media screen and (max-width: 1024px) {
     .nav {
         display: none;
     }
+
+    .front{
+    background-color: #F6AE2D;
+    height: 812px;
+}
 }
