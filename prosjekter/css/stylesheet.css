@@ -11,11 +11,11 @@ body {
 }
 .nav a{
     float: right;
-    padding: 30px 10px;
+    padding: 5px 10px;
     color: black;
-    font-size: 1.7vw;
-    margin-right: 30px;
+    font-size: 1.4vw;
     text-decoration: none;
+    padding: 15px;
 }
 /*meny hover*/
 .nav a:hover {
@@ -28,8 +28,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 1080px;
+    height: 1500px;
     padding-top: 100px;
+    width: auto;
 }
 
 h2 {
@@ -55,12 +56,30 @@ h2 {
 
 /* nav på mobil */
 @media screen and (max-width: 1024px) {
+    .front{
+    background-image:  url("/prosjekter/img/bakgrunn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1100px;
+    padding-top: 100px;
+
+    }
     .nav {
         display: none;
-    }
+        }
 
-    .front{
-    background-color: #F6AE2D;
-    height: 812px;
-}
+    .informasjon{
+        padding: 0px 20px;
+    }
+    .informasjon h2{
+        font-size: 9vw;
+    }
+    .informasjon p{
+
+        font-size: 6vw;
+    }
+    .informasjon q{
+        font-size: 6vw;
+    }
 }
