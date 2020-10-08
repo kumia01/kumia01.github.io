@@ -13,9 +13,9 @@ body {
     float: right;
     padding: 5px 10px;
     color: black;
-    font-size: 2vw;
+    font-size: 1.3vw;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px;
 }
 /*meny hover*/
 .nav a:hover {
@@ -35,7 +35,11 @@ body {
 
 .front img{
     float: right;
-    padding-right: 50px
+    padding-right: 200px;
+}
+
+.front h1{
+    padding-left: 30px;
 }
 
 h2 {
@@ -43,24 +47,24 @@ h2 {
 }
 
 .informasjon{
-    padding: 0px 100px;
+    padding: 0px 200px;
 }
 
 .informasjon p{
 
-    font-size: 2vw;
+    font-size: 1vw;
 }
 .informasjon h2{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .informasjon q{
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 
 
 /* nav på mobil */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .front{
     background-image:  url("/prosjekter/img/bakgrunn.png");
     background-repeat: no-repeat;
@@ -70,6 +74,18 @@ h2 {
     padding-top: 100px;
 
     }
+    .front h1{
+    text-align: center;
+    padding-left: 0px;
+    }
+    .front img{
+    float: right;
+    padding-top: 100px;
+    padding-right: 0px;
+    height: 230px;
+    width: auto;
+    }
+
     .nav {
         display: none;
         }
