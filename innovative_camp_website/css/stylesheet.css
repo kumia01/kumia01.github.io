@@ -10,7 +10,6 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    border-bottom: 1px solid #2F4858;
 }
 .nav a{
     float: right;
