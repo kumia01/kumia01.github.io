@@ -10,7 +10,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-
+    border-bottom: 1px solid #2F4858;
 }
 .nav a{
     float: right;
@@ -49,18 +49,18 @@ body {
 }
 
 .front{
-    background-image:  url("/prosjekter/img/bakgrunn.png");
+    background-image:  url("/innovative_camp_website/img/bakgrunn.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 1500px;
+    height: 900px;
     padding-top: 100px;
     width: auto;
 }
 
 .front img{
     float: right;
-    padding-right: 200px;
+    padding-right: 50px;
 }
 
 .front h1{
