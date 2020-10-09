@@ -17,6 +17,20 @@ body {
     text-decoration: none;
     padding: 12px;
 }
+
+.footer{
+    padding: 30px;
+    background-color: #1C9A89;
+
+}
+.footer a{
+    text-decoration: none;
+
+}
+.footer alignment{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+}
 /*meny hover*/
 .nav a:hover {
     background: white;
