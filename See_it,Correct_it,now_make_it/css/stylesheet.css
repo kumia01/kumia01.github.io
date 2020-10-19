@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.front{
+    padding-top: 100px;
+    background-color: slategray;
+    width: auto;
+    height: 800px;
+}
+
+.front h1,p{
+    font-size: 500%;
+    text-align: center;
+}
+
+.info{
+   padding: 0px 400px 400px;
+}
+.kolonne{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: gainsboro;
+
+}
