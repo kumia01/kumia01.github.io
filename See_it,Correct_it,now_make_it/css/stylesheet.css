@@ -56,12 +56,17 @@ body{
     font-size: 25px;
     text-align: center;
 }
-
+.info a, .info-2 a{
+    text-decoration: none;
+    color: black;
+}
 .kolonne{
     float: left;
     width: 33.33%;
     padding: 50px;
     text-align: center;
+    height: 150px;
+
     font-size: 25px;
     cursor: pointer;
     background-color: gainsboro;
@@ -73,7 +78,7 @@ body{
 @media screen and (max-width: 999px) {
     .front h1,.front p{
     font-size: 200%;
-}
+    }
     .front{
         height: 400px;
     }
@@ -82,10 +87,12 @@ body{
         font-size: 20px;
 
     }
-
+    .info div, .info-2 div{
+    font-size: 20px;
+}
     .navbar a{
     font-size: 14px;
-}
+    }
     .navbar{
         display: none;
     }
@@ -95,5 +102,8 @@ body{
         position: fixed;
         width: 100%;
         display: contents;
+    }
+    .kolonne{
+       width: 100%;
     }
 }
