@@ -39,7 +39,7 @@ body{
 .front{
 
     padding-top: 100px;
-    background-color: slategray;
+    background-image: url(../img/bakgrunn.jpg);
     width: 100%;
     height: 500px;
 }
