@@ -167,6 +167,9 @@ body{
         font-size: 20px;
 
     }
+    .info{
+        padding-bottom: 950px;
+    }
     .info div, .info-2 div{
     font-size: 20px;
     }
