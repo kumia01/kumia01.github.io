@@ -55,11 +55,25 @@ body{
 .info, .info-2{
     font-size: 25px;
     text-align: center;
+    padding-bottom: 350px;
+}
+.info-2{
+    padding: 0px;
 }
 .info a, .info-2 a{
     text-decoration: none;
     color: black;
 }
+
+.info h2, .info-2 h3{
+    margin: 0px;
+}
+.info p, .info-2 p{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
 .kolonne{
     float: left;
     width: 33.33%;
