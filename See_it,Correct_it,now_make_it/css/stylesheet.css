@@ -14,6 +14,11 @@ body{
     background-color: #fff;
     position: fixed;
     width: 100%;
+    top: 0px;
+}
+
+.mobile-nav{
+    display: none;
 }
 
 .navbar img{
@@ -42,7 +47,7 @@ body{
 /*frontpage*/
 
 .front{
-    padding:  0 100px 100px 100px;
+    padding:  100px 100px 100px 100px;
     background: url(../img/bakgrunn.jpg) no-repeat;
     background-size: auto;
     width: 100%;
@@ -144,6 +149,9 @@ body{
     background-color: gainsboro;
 
 }
+.kolonne:hover {
+    background-color: azure;
+}
 /* footer*/
 
 /* til mobil */
@@ -192,7 +200,6 @@ body{
     .kolonne{
        width: 100%;
     }
-
     .knapp {
         background-color: transparent;
         color: black;
