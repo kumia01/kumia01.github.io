@@ -199,7 +199,9 @@ body{
     }
     .kolonne{
        width: 100%;
+        border: solid 1px gray;
     }
+
     .knapp {
         background-color: transparent;
         color: black;
