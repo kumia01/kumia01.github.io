@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, intial scale 1.0">
 <head>
 
 </head>
 <body>
 
     <div class="omrd-banner">
-    <div class="banner-tekst">
+        <div class="banner-tekst">
         <h1>Welcome to Inova</h1>
+            <br>
         <p1>We bring together acamedia and industry in our work for frugal innovation</p1>
-
-
         <style>
-            .omrd-banner {
+.omrd-banner {
+    background: url(/img/gruppe-mennesker.jpg);
+    /*skal være en gradient her men får den ikke til å fungere atm*/
+    height: 90vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
 
-            }
+.banner-tekst {
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /*responsivitet*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+
+}
+
+.banner-tekst h1 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.banner-tekst p1{
+    text-align: center;
+}
 
         </style>
         </div>
