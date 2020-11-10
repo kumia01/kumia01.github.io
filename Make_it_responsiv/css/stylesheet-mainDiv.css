@@ -1,15 +1,12 @@
 *{
     margin: 0;
 }
-nav{
-    background-color: #FFB5A7;
-    height: 80px;
-}
+
 
 #main{
     background-color: #F8EDEB;
     width: 100%;
-    top: 80px;
+    height: 100%;
     
    
     
