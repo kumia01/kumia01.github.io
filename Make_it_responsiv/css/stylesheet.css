@@ -3,13 +3,7 @@
     margin: 0;
 }
 
-.omrd-banner {
-    background: url(/img/2020-11-10.png);
-    height: 60vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
+
 
 /*about us*/
 
@@ -55,6 +49,7 @@
     top: 0;
     bottom: 1;
     width: 100%;
+
 }
   
 .header ul {
@@ -172,9 +167,10 @@
 
 /*main*/
 #main{
-    background-color: #F8EDEB;
+    
     width: 100%;
     height: 100%;
+    margin-top: 58.2px;
     
    
     
@@ -193,8 +189,8 @@
     
 }
 #box1{
-    height: 30%;
-    background-color: #FCD5CE;
+    height: 40%;
+    background-color: #9e7f63;
     width: 100%;
     text-align: center;
     display: flex;
@@ -208,19 +204,19 @@
 }
 
 #box1Text{
-    width: 70%;
     
-    
+    width: 50%;
     height: 90%;
-    
+    text-align: left;
     display: block;
     margin: auto;
     margin-right: 15px;
+    padding: 30px;
 
 }
 
 #box2{
-    height: 30%;
+    height: 50%;
     background-color: #FFB5A7;
     width: 100%;
     text-align: center;
@@ -229,10 +225,11 @@
     justify-content: space-between;
     text-align: start;
     
+    
 }
 
 #box2Text{
-    width: 70%;
+    width: 50%;
     margin: 30px;
     
     height: 90%;
@@ -240,24 +237,20 @@
     display: block;
     margin: auto;
     margin-left: 15px;
+    padding: 30px;
      
    
 }
 
 
 .boxImg{
-
-    width: 30%;
-    display: flex;
-    justify-content: center;
+    margin: 30px;
+    
+   
 }
 
 
-.boxImg img{
-    height: 90%;
-   display: block;
-   margin: auto;
-}
+
 
 a.button {
     -webkit-appearance: button;
@@ -268,7 +261,7 @@ a.button {
     color: initial;
     /*Source: https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
     */
-    border-style: 
+    
 }
 /*main*/
 
@@ -283,7 +276,7 @@ a.button {
     font: bold 16px sans-serif;
 
     padding: 35px 50px;
-    margin-top: 80px;
+    
 
 }
 
