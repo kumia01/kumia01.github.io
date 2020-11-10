@@ -1,0 +1,21 @@
+/* Nav-barens responsitivitet start*/
+@import url('https://rsms.me/inter/inter.css');
+
+@media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+}
+
+/* Nav-barens responsitivitet slutt*/
