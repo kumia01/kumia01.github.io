@@ -30,18 +30,22 @@
         <br/><br/><br/>
 
         <div class="meny">
-            <h2>kontakt oss</h2>
-            <p>Adresse: ......</p>
-            <p>telefon nummer: ......</p>
-            <p>E-post: ......</p>
-            <br/>
-            <form>
-                <p>kontakt form:</p>
-                <p>E-mail: <input type="text" name="e-mail" size="15" maxlength="40"></p>
-                <textarea name="spørsmål" cols="20" rows="4">Still spørsmåler her</textarea>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <p>størrelse</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">bla bla bla</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">bla bla bal</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">bla bla bal</label><br><br>
+                <label for="lname">data og tid </label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <input type="submit" value="Submit">
             </form>
-
-
         </div>
     </body>
 </html>
