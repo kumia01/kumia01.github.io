@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: #FFB5A7;
+    height: 80px;
+}
+
+#main{
+    background-color: #F8EDEB;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    bottom: 54.4px;
+    
+   
+    
+}
+#main h1{
+    padding: 10px;
+    
+    font-style: oblique;
+    height: 10%;
+    
+    text-align: center;
+    color: black;
+    font-size:4vw
+    
+    
+    
+}
+#box1{
+    height: 30%;
+    background-color: #FCD5CE;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: end;
+    
+    
+    
+
+}
+
+#box1Text{
+    width: 70%;
+    
+    
+    height: 90%;
+    
+    display: block;
+    margin: auto;
+    margin-right: 15px;
+
+}
+
+#box2{
+    height: 30%;
+    background-color: #FFB5A7;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    
+}
+
+#box2Text{
+    width: 70%;
+    margin: 30px;
+    
+    height: 90%;
+
+    display: block;
+    margin: auto;
+    margin-left: 15px;
+     
+   
+}
+
+
+.boxImg{
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.boxImg img{
+    height: 90%;
+   display: block;
+   margin: auto;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    /*Source: https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
+    */
+    border-style: 
+}
+
+footer{
+    background-color: #FFB5A7;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    height: 54.4px;
+    
+}
+
