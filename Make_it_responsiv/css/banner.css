@@ -1,6 +1,6 @@
 
 .omrd-banner {
-    background-image: url(landscape-mountains-lake-nature-wallpaper-preview.jpg);
+    background: url(landscape-mountains-lake-nature-wallpaper-preview.jpg);
     height: 60vh;
     -webkit-background-size: cover;
     background-size: cover;
