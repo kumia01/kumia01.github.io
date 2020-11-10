@@ -8,10 +8,8 @@ nav{
 
 #main{
     background-color: #F8EDEB;
-    position: absolute;
     width: 100%;
     top: 80px;
-    bottom: 54.4px;
     
    
     
@@ -107,16 +105,3 @@ a.button {
     */
     border-style: 
 }
-
-footer{
-    background-color: #FFB5A7;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: grey;
-    text-align: center;
-    height: 54.4px;
-    
-}
-
