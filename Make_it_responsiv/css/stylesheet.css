@@ -179,7 +179,7 @@
     padding: 10px;
     
     font-style: oblique;
-    height: 10%;
+    height: 20%;
     
     text-align: center;
     color: black;
@@ -188,44 +188,58 @@
     
     
 }
-#box1{
-    height: 40%;
-    background-color: #9e7f63;
+#box1_100{
+    background-color: #ffe6d0;
     width: 100%;
-    text-align: center;
+    height: 40%;
+}
+
+#box1{
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    text-align: end;
-    
-    
-    
+    text-align: right;
+    align-items: center;
 
 }
+
 
 #box1Text{
     
     width: 50%;
     height: 90%;
-    text-align: left;
+   
     display: block;
-    margin: auto;
+    margin-left: auto;
     margin-right: 15px;
     padding: 30px;
+}
+.textInBox{
+    width: 80%;
+    font-size: 1.5rem;
 
 }
 
-#box2{
-    height: 50%;
-    background-color: #FFB5A7;
+#box2_100{
+    height: 40%;
+    background-color:  #ffd8b6;
     width: 100%;
-    text-align: center;
+}
+
+#box2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: start;
-    
-    
+    text-align: left;
+    align-items: center;
+
+
 }
 
 #box2Text{
@@ -242,13 +256,22 @@
    
 }
 
-
-.boxImg{
+.boxImg img{
     margin: 30px;
+    width: 35vw;
     
-   
 }
 
+@media only screen and (min-width: 1300px){
+
+    #box1{
+        width: 70%;
+    }
+    #box2{
+        width: 70%;
+    }
+   
+}
 
 
 
