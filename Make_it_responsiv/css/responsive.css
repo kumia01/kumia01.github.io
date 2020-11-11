@@ -17,5 +17,67 @@
       display: none;
     }
 }
-
 /* Nav-barens responsitivitet slutt*/
+
+/* Første bildes responsivitet start*/
+@media only screen and (max-width: 1100px){
+  
+  .boxImg img{
+    width: 60%;
+  }
+  .textInBox{
+    width: 100%;
+  }
+  
+}
+/* Første bildes responsivitet slutt*/
+
+/* Tekst ved siden av første bildets responsivitet start*/
+@media only screen and (max-width: 1100px){
+  #box1Text{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 630px){
+   
+  .textInBox{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .textInBox{
+    font-size: 20px;
+  }
+}
+/* Tekst ved siden av første bildets responsivitet slutt*/
+
+/* Andre bildets responsivitet start*/
+@media only screen and (max-width: 1100px){
+  #box2 .boxImg img{
+    width: 72%;
+  }
+}
+/* Andre bildets responsivitet slutt*/
+
+/* Tekst ved siden av andre bildets responsivitet start*/
+@media only screen and (max-width: 1100px){
+  #box2Text{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 630px){
+  #box2Text .textInBox{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  #box2Text .textInBox{
+    font-size: 20px;
+  }
+}
+
+
+/* Tekst ved siden av andre bildets responsivitet slutt*/
