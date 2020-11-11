@@ -1,34 +1,7 @@
-html{
+*{
+    padding: 0;
+    margin: 0:
     overflow-x: hidden;
-}
-.omrd-banner {
-    background: url(../img/2020-11-10.png);
-    height: 60vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-tekst{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /*tilpasning til nettlesere*/
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner-tekst h1{
-    color: white;
-    margin-top: -300px; /*plassering av tekst på banner*/
-    text-align: center;
-    font-size: 56px;
-    text-transform: uppercase;
 }
 
 .box-purpose{
@@ -36,10 +9,8 @@ html{
     align-items: flex-end;
     object-fit: contain;
     background-color: #ffe6d0;
-    padding: 3%;
 
 }
-
 
 .purpose h1{
     text-align: right;
@@ -53,7 +24,6 @@ html{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
-    padding-right: 10px;
 }
 
 .purpose p1{
@@ -78,7 +48,6 @@ html{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
-    padding: 10px;
 }
 
 .espertise p1{
@@ -89,6 +58,8 @@ html{
 #team {
     position: relative;
     overflow: hidden;
+    flex-wrap: wrap;
+
 }
 
 .kolonne {
@@ -105,7 +76,7 @@ html{
 
 .kolonne img {
     width: 100%;
-    display: block;
+    display: flex;
 }
 
 /*legger inn responsivitet i siste filen*/
