@@ -78,6 +78,29 @@
     font-size: 20px;
   }
 }
-
-
 /* Tekst ved siden av andre bildets responsivitet slutt*/
+
+/*Fotter sin responsivitet start*/
+
+@media (max-width: 880px){
+    .footer-fordelt{
+		font: bold 14px sans-serif;
+
+	}
+
+	.footer-fordelt .left,
+	.footer-fordelt .center,
+	.footer-fordelt .right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+        padding-bottom: 30px;
+	}
+
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
+/*Footer sin responsivitet slutt*/
