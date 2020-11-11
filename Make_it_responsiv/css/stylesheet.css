@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -33,14 +35,14 @@
 
 /* Nav bar start*/
 @import url('https://rsms.me/inter/inter.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 .menu li a, .logo {
     color: rgb(61, 61, 61);
 }
-  
+
   /* header */
-  
+
 .header {
     background-color: #FEC89A;
     font-family: 'inter';
@@ -49,26 +51,28 @@
     top: 0;
     bottom: 1;
     width: 100%;
+    height: 10%;
+    z-index: 1;
 
 }
-  
+
 .header ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
 }
-  
+
 .header li a {
     display: block;
     padding: 20px 20px;
     text-decoration: none;
 }
-  
+
 .header li a:hover, .header .menu-btn:hover {
     background-color: #F9DCC4;
 }
-  
+
 .header .logo {
     display: block;
     float: left;
@@ -76,17 +80,17 @@
     padding: 10px 20px;
     text-decoration: none;
 }
-  
+
   /* menu */
-  
+
 .header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
-  
+
   /* menu icon */
-  
+
 .header .menu-icon {
     cursor: pointer;
     float: right;
@@ -94,7 +98,7 @@
     position: relative;
     user-select: none;
 }
-  
+
 .header .menu-icon .nav-icon {
     background: rgb(61, 61, 61);
     display: block;
@@ -103,7 +107,7 @@
     transition: .2s ease-out;
     width: 18px;
 }
-  
+
 .header .menu-icon .nav-icon:before, .header .menu-icon .nav-icon:after {
     background: rgb(61, 61, 61);
     content: '';
@@ -113,39 +117,39 @@
     transition: all .2s ease-out;
     width: 100%;
 }
-  
+
 .header .menu-icon .nav-icon:before {
     top: 5px;
 }
-  
+
 .header .menu-icon .nav-icon:after {
     top: -5px;
 }
-  
+
   /* menu btn */
-  
+
 .header .menu-btn {
     display: none;
 }
-  
+
 .header .menu-btn:checked ~ .menu {
     max-height: 240px;
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .nav-icon {
     background: transparent;
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
     transform: rotate(-45deg);
     top:0;
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     transform: rotate(45deg);
     top:0;
 }
-  
+
 @media (min-width: 768px) {
     .header li {
       float: left;
@@ -167,26 +171,26 @@
 
 /*main*/
 #main{
-    
+
     width: 100%;
     height: 100%;
     margin-top: 58.2px;
-    
-   
-    
+
+
+
 }
 #main h1{
     padding: 10px;
-    
+
     font-style: oblique;
     height: 20%;
-    
+
     text-align: center;
     color: black;
     font-size:4vw
-    
-    
-    
+
+
+
 }
 #box1_100{
     background-color: #ffe6d0;
@@ -195,7 +199,7 @@
 }
 
 #box1{
-    
+
     /*width: 100%;*/
     display: flex;
     flex-wrap: wrap;
@@ -208,11 +212,11 @@
 
 
 #box1Text{
-    
+
     width: 50%;
     height: 90%;
-   
-    
+
+
 }
 .textInBox{
     width: 80%;
@@ -224,7 +228,7 @@
     height: 40%;
     background-color:  #ffd8b6;
     width: 100%;
-    
+
 }
 
 #box2{
@@ -240,7 +244,7 @@
 #box2Text{
     width: 50%;
 
-   
+
 }
 
 .boxImg{
@@ -251,7 +255,7 @@
 .boxImg img{
     margin: 30px;
     width: 35vw;
-    
+
 }
 
 @media only screen and (min-width: 1300px){
@@ -262,7 +266,7 @@
     #box2{
         width: 70%;
     }
-   
+
 }
 
 
@@ -276,7 +280,7 @@ a.button {
     color: initial;
     /*Source: https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
     */
-    
+
 }
 /*main*/
 
@@ -291,7 +295,7 @@ a.button {
     font: bold 16px sans-serif;
 
     padding: 35px 50px;
-    
+
 
 }
 

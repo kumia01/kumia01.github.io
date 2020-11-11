@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.header{
+#header{
     text-align: center;
     padding: 32px;
 }
@@ -74,6 +74,11 @@ input[type=submit]:hover{
     clear: both;
 }
 
+#main2{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
 @media screen and (max-width: 600px) {
     .column{
         flex: 100%;
@@ -88,4 +93,8 @@ input[type=submit]:hover{
     #column1{
         height: 600px;
     }
+    #main2{
+    margin-top: 20%;
+    margin-bottom: 7%;
+}
 }

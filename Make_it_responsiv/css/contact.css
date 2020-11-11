@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 body{
   background-color: #ffd8b6;
   font-family: sans-serif, helvetica;
@@ -67,6 +69,7 @@ a{
   .contact{
     font-size: 5vw;
   }
+}
 @media only screen and (max-width: 280px){
   .box{
     width: 80%;
