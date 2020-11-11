@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 *{
@@ -54,316 +55,116 @@
     /*height: 10%;*/
     z-index: 1;
 
+=======
+html{
+    box-sizing: border-box;
+>>>>>>> origin/master
 }
 
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+body{
+    overflow: hidden;
+    margin: auto;
+}
+.omrd-banner {
+    background: url(/img/2020-11-10.png);
+    height: 60vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-tekst{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*tilpasning til nettlesere*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tekst h1{
+    color: white;
+    margin-top: -300px; /*plassering av tekst på banner*/
+    text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.box-purpose{
+    display: grid;
+    align-items: flex-end;
+    object-fit: contain;
+}
+
+
+.purpose h1{
+    text-align: right;
+}
+
+.purpose-img{
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.purpose p1{
+    text-align: right;
+}
+
+.box-expertise{
+    display: grid;
+    align-items: flex-start;
+}
+
+.expertise h1{
+    text-align: left;
+}
+
+.expertise-img{
+    float:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.espertise p1{
+    text-align: right;
+}
+
+
+#team {
+    position: relative;
     overflow: hidden;
 }
 
-.header li a {
-    display: block;
-    padding: 20px 20px;
-    text-decoration: none;
-}
-
-.header li a:hover, .header .menu-btn:hover {
-    background-color: #F9DCC4;
-}
-
-.header .logo {
-    display: block;
+.kolonne {
     float: left;
-    font-size: 32px;
-    padding: 10px 20px;
-    text-decoration: none;
+    width: 23.0%;
+    margin: 1% 1% 45px 1%;
+    height: 500px;
 }
 
-  /* menu */
-
-.header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
+.person {
+    display: inline-block;
+    bottom: 0px;
 }
 
-  /* menu icon */
-
-.header .menu-icon {
-    cursor: pointer;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-}
-
-.header .menu-icon .nav-icon {
-    background: rgb(61, 61, 61);
+.kolonne img {
+    width: 100%;
     display: block;
-    height: 2px;
-    position: relative;
-    transition: .2s ease-out;
-    width: 18px;
 }
 
-.header .menu-icon .nav-icon:before, .header .menu-icon .nav-icon:after {
-    background: rgb(61, 61, 61);
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-}
+/*legger inn responsivitet i siste filen*/
 
-.header .menu-icon .nav-icon:before {
-    top: 5px;
-}
-
-.header .menu-icon .nav-icon:after {
-    top: -5px;
-}
-
-  /* menu btn */
-
-.header .menu-btn {
-    display: none;
-}
-
-.header .menu-btn:checked ~ .menu {
-    max-height: 240px;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
-    background: transparent;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
-    transform: rotate(-45deg);
-    top:0;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
-    transform: rotate(45deg);
-    top:0;
-}
-
-@media (min-width: 768px) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-}
-
-/* Nav bar slutt*/
-
-/*main*/
-#main{
-
-    width: 100%;
-    height: 100%;
-    margin-top: 58.2px;
-
-
-
-}
-#main h1{
-    padding: 10px;
-
-    font-style: oblique;
-    height: 20%;
-
-    text-align: center;
-    color: black;
-    font-size:4vw
-
-
-
-}
-#box1_100{
-    background-color: #ffe6d0;
-    width: 100%;
-    height: 40%;
-}
-
-#box1{
-
-    /*width: 100%;*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    padding: 3%;
-
-}
-
-
-#box1Text{
-
-    width: 50%;
-    height: 90%;
-
-
-}
-.textInBox{
-    width: 80%;
-    font-size: 1.5rem;
-
-}
-
-#box2_100{
-    height: 40%;
-    background-color:  #ffd8b6;
-    width: 100%;
-
-}
-
-#box2{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-
-
-}
-
-#box2Text{
-    width: 50%;
-
-
-}
-
-.boxImg{
-    display: flex;
-    justify-content: center;
-}
-
-.boxImg img{
-    margin: 30px;
-    width: 35vw;
-
-}
-
-@media only screen and (min-width: 1300px){
-
-    #box1{
-        width: 70%;
-    }
-    #box2{
-        width: 70%;
-    }
-
-}
-
-
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-    /*Source: https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
-    */
-
-}
-/*main*/
-
-
-/*footer start*/
-.footer-fordelt{
-    background-color: #ebcaad;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-
-    padding: 35px 50px;
-
-
-}
-
-.footer-fordelt .left,
-.footer-fordelt .center,
-.footer-fordelt .right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-.footer-fordelt .left{
-    width: 90%;
-}
-
-
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-fordelt .name{
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-
-.footer-fodelt .right{
-    width: 20%;
-}
-.link-placement .float{
-    float: left;
-    padding-top: 50px;
-}
-.link-placement img{
-    float: left;
-    padding-right: 20px;
-    width: 100px;
-
-}
-.footer-links a{
-    text-decoration: none;
-    color: white;
-}
-.footer-links a:hover{
-   color: blanchedalmond;
-}
-
-.myBtn {
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background: #4c2401;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-}
-.myBtn:hover{
-    background-color: #555;
-}
