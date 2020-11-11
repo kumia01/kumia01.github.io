@@ -152,7 +152,8 @@
 #main h1{
     padding: 10px;
 
-    font-style: oblique;
+    font-family: 'inter', sans-serif;
+
     height: 20%;
 
     text-align: center;
@@ -177,7 +178,10 @@
 
 }
 
+#frugalTitle{
+    font-family: 'inter', sans-serif;
 
+}
 #box1Text{
     width: 60%;
     height: 90%;
@@ -187,6 +191,7 @@
 .textInBox{
     width: 80%;
     font-size: 1.5rem;
+    font-family: 'inter', sans-serif;
 
 }
 
