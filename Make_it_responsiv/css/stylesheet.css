@@ -303,7 +303,7 @@ a.button {
 }
 
 .footer-fordelt .left{
-    width: 40%;
+    width: 90%;
 }
 
 
@@ -328,18 +328,17 @@ a.button {
     margin: 0;
 }
 
-.footer-fordelt .center{
-    width: 35%;
-}
 
 .footer-fodelt .right{
     width: 20%;
 }
 .link-placement .float{
-    float: right;
-    padding-top: 70px;
+    float: left;
+    padding-top: 50px;
 }
 .link-placement img{
+    float: left;
+    padding-right: 20px;
     width: 100px;
 
 }

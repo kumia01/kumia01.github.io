@@ -82,20 +82,27 @@
 
 /*Fotter sin responsivitet start*/
 
-@media (max-width: 400px){
+@media (max-width: 780px){
     .footer-fordelt{
 		font: bold 14px sans-serif;
 
 	}
 
+    .link-placement .float{
+        float: none;
+        padding-top: 10px;
+
+    }
+    .link-placement img{
+        float: none;
+        padding: 0;
+    }
+
 	.footer-fordelt .left,
-	.footer-fordelt .center,
 	.footer-fordelt .right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
 		text-align: center;
-        padding-bottom: 30px;
 	}
 
 	.main {
