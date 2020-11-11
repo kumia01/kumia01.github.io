@@ -1,11 +1,5 @@
 html{
-    height: 100%;
-    margin: auto;
-}
-
-body{
-    overflow: hidden;
-    margin: auto;
+    overflow-x: hidden;
 }
 .omrd-banner {
     background: url(/img/2020-11-10.png);
