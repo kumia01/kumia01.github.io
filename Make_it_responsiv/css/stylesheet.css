@@ -169,21 +169,17 @@
 }
 
 #box1{
-
-    /*width: 100%;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     padding: 3%;
 
 }
 
 
 #box1Text{
-
-    width: 50%;
+    width: 60%;
     height: 90%;
 
 
@@ -231,10 +227,10 @@
 @media only screen and (min-width: 1300px){
 
     #box1{
-        width: 70%;
+        width: 100%;
     }
     #box2{
-        width: 70%;
+        width: 100%;
     }
 
 }
