@@ -2,7 +2,7 @@
 
 body{
   background-color: #ffd8b6;
-  font-family: sans-serif, helvetica;
+  font-family: inter, sans-serif;
 }
 .container{
   display: flex;

@@ -1,11 +1,13 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'inter', sans-serif;
 }
 
 /* Nav bar start*/
-@import url('https://rsms.me/inter/inter.css');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 
 .menu li a, .logo {
     color: rgb(61, 61, 61);
@@ -152,7 +154,8 @@
 #main h1{
     padding: 10px;
 
-    font-style: oblique;
+    font-family: 'inter', sans-serif;
+
     height: 20%;
 
     text-align: center;
@@ -177,7 +180,10 @@
 
 }
 
+#frugalTitle{
+    font-family: 'inter', sans-serif;
 
+}
 #box1Text{
     width: 60%;
     height: 90%;
@@ -187,6 +193,7 @@
 .textInBox{
     width: 80%;
     font-size: 1.5rem;
+    font-family: 'inter', sans-serif;
 
 }
 
