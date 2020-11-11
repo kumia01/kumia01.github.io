@@ -32,9 +32,12 @@ html{
 }
 
 .box-purpose{
-    display: grid;
+    display: flex;
     align-items: flex-end;
     object-fit: contain;
+    background-color: #ffe6d0;
+    padding: 3%;
+
 }
 
 
@@ -50,6 +53,7 @@ html{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
+    padding-right: 10px;
 }
 
 .purpose p1{
@@ -59,6 +63,7 @@ html{
 .box-expertise{
     display: grid;
     align-items: flex-start;
+    background-color: #ffe9f6;
 }
 
 .expertise h1{
@@ -73,6 +78,7 @@ html{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
+    padding: 10px;
 }
 
 .espertise p1{

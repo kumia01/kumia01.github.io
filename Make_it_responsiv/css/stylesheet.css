@@ -1,37 +1,7 @@
-
-
 *{
     padding: 0;
     margin: 0;
 }
-
-
-
-/*about us*/
-
-#team {
-    position: relative;
-    overflow: hidden;
-}
-
-.kolonne {
-    float: left;
-    width: 23.0%;
-    margin: 1% 1% 45px 1%;
-    height: 500px;
-}
-
-.person {
-    display: inline-block;
-    bottom: 0px;
-}
-
-.kolonne img {
-    width: 100%;
-    display: block;
-}
-
-/*legger inn responsivitet i siste filen*/
 
 /* Nav bar start*/
 @import url('https://rsms.me/inter/inter.css');
