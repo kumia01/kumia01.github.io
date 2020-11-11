@@ -66,20 +66,23 @@
 #team {
     position: relative;
     overflow: hidden;
-    flex-wrap: wrap;
+    display: flex;
 
 }
 
 .kolonne {
     float: left;
     width: 23.0%;
-    margin: 1% 1% 45px 1%;
+    padding; 10px;
     height: 500px;
 }
 
 .person {
-    display: inline-block;
     bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .kolonne img {
