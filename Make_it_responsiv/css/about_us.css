@@ -40,7 +40,6 @@ html{
 
 }
 
-
 .purpose h1{
     text-align: right;
 }
@@ -53,7 +52,7 @@ html{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .purpose p1{
