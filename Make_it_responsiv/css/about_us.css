@@ -27,6 +27,7 @@
 #box-1-tekst{
     width: 50%;
     height: 90%;
+    margin-left: auto;
 }
 
 .box-1-tekst{
@@ -51,9 +52,19 @@
 }
 
 #box-2-tekst {
-    width: 50%;
+    max-width: 50%;
+    margin-left: auto;
+    font-size: 1.5rem;
 }
 
+#box-img {
+    display: flex;
+}
+
+.spanex{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 #team {
     position: relative;
