@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0:
-    overflow-x: hidden;
 }
 
 .box-purpose{
@@ -17,13 +16,11 @@
 }
 
 .purpose-img{
-    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    object-fit: cover;
-    object-position: bottom;
+    height: auto;
 }
 
 .purpose p1{
@@ -41,7 +38,6 @@
 }
 
 .expertise-img{
-    float:right;
     display: block;
     margin-left: auto;
     margin-right: auto;
