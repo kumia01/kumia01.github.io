@@ -1,5 +1,5 @@
 body{
-  background-color: #F9E5D8;
+  background-color: #ffd8b6;
   font-family: sans-serif, helvetica;
 }
 .container{
@@ -11,17 +11,23 @@ body{
 }
 
 .box{
-  background-color: #F8EDEB;
+  background-color:  #ffe6d0;
   width: 120px;
   padding: 60px;
   margin: 5px;
   box-shadow: 5px 10px 20px #888888;
 }
 .contact{
-  margin: 50px;
-  border: 50px;
-  font-size: 2.5em;
+  padding: 10px;
+  font-style: oblique;
+  height: 150px;
+  margin: 0;
+  width: auto;
   text-align: center;
+  color: black;
+  font-size:3vw;
+  background-color: #ffe6d0;
+  align-items: flex-start;
 }
 .footer{
   background-color: #F8EDEB;
@@ -47,6 +53,7 @@ a{
 .responsive{
   width: 100%;
   height: 600px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,7 +62,10 @@ a{
   }
   .responsive{
     width: 100%;
-    height: 400px;
+    height: 300px;
+  }
+  .contact{
+    font-size: 5vw;
   }
 @media only screen and (max-width: 280px){
   .box{
@@ -64,5 +74,8 @@ a{
   .responsive{
     width: 100%;
     height: 300px;
+  }
+  .contact{
+    font-size: 6vw;
   }
 }
