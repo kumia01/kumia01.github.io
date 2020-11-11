@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0:
 }
-
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
 
 #box-purpose{
     max-width: 100%;
