@@ -85,7 +85,8 @@
 
 /*Fotter sin responsivitet start*/
 
-@media only screen (max-width: 780px){
+@media (max-width: 780px){
+
     .footer-fordelt{
 		font: bold 14px sans-serif;
 
