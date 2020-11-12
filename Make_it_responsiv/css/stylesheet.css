@@ -175,6 +175,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    max-width: 100%;
 
 }
 
@@ -245,18 +246,6 @@
     object-fit: cover;
     object-position: bottom;
 }
-
-@media only screen and (min-width: 1300px){
-
-    #box1{
-        width: 100%;
-    }
-    #box2{
-        width: 100%;
-    }
-
-}
-
 
 
 a.button {
