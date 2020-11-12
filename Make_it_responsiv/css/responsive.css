@@ -85,7 +85,7 @@
 
 /*Fotter sin responsivitet start*/
 
-@media (max-width: 780px){
+@media only screen (max-width: 780px){
     .footer-fordelt{
 		font: bold 14px sans-serif;
 
@@ -117,7 +117,7 @@
 
 /*bout us*/
 
-@media(min-width:1920px){
+@media (min-width:1920px){
     #box-1{
         width: 100%;
     }
@@ -126,7 +126,7 @@
     }
 }
 
-@media(max-width:500px){
+@media (max-width:500px){
     #box-img{
         width: 50%;
     }
