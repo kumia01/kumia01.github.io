@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+
 .omrd-banner {
     background: url(../img/2020-11-10.png);
     height: 60vh;
@@ -21,7 +28,7 @@
 }
 
 .banner-tekst h1{
-    color: white;
+    color: #2b1d0e;
     margin-top: -300px; /*plassering av tekst på banner*/
     text-align: center;
     font-size: 56px;
