@@ -105,9 +105,10 @@
     display: flex;
     width: 320px;
     padding: 20px;
-    height: 600px;
+    height: 590px;
     flex-wrap: wrap;
     float: left;
+    align-items: flex-start;
 }
 
 .kolonne img {
