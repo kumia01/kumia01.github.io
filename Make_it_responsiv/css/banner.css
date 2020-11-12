@@ -6,7 +6,7 @@
 
 
 .omrd-banner {
-    background: url(../alternativ-banner.png);
+    background: url(../img/alternativ-banner.jpg);
     height: 60vh;
     -webkit-background-size: cover;
     background-size: cover;
@@ -29,7 +29,7 @@
 
 .banner-tekst h1{
     color: #2b1d0e;
-    margin-top: -200px; /*plassering av tekst på banner*/
+    margin-top: -350px; /*plassering av tekst på banner*/
     text-align: center;
     font-size: 56px;
     text-transform: uppercase;
