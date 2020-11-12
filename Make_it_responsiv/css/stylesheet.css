@@ -259,7 +259,7 @@ a.button {
 /*main*/
 
 
-@media screen only and (min-width:1300px){
+@media only screen and (min-width:1300px){
     #box1{
         width: 70%;
     }
