@@ -87,26 +87,26 @@
 .ourteam{
     font-size: 50px;
     font-weight: bold;
-
 }
 
-#team {
+.team {
     position: relative;
-    overflow: hidden;
-    padding-bottom: 60px;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .kolonne {
     float: left;
     width: 23.0%;
     margin: 1% 1% 45px 1%;
-    height: 500px;
+    height: 600px;
+    flex-wrap: wrap;
 }
 
 .kolonne img {
     width: 100%;
-    display: block;
+    display: flex;
 }
 
 /*legger inn responsivitet i siste filen*/
